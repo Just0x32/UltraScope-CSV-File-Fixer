@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>resources\icon.ico</ApplicationIcon>
+    <AssemblyName>UltraScope CSV File Fixer</AssemblyName>
+    <Title>UltraScope CSV File Fixer</Title>
+    <PackageIcon>icon.png</PackageIcon>
+    <SignAssembly>False</SignAssembly>
+    <Product>UltraScope CSV File Fixer</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="resources\icon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="resources\icon.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="resources\icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
