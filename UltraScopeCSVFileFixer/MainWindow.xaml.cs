@@ -27,7 +27,7 @@ namespace UltraScopeCSVFileFixer
             Environment.NewLine +
             "which created by Rigol UltraScope (https://www.rigolna.com/download/)" + Environment.NewLine +
             Environment.NewLine +
-            "and will be opened by CSV See (https://alex-exe.ru/files/programm/utility-csv-see/)" + Environment.NewLine +
+            "and will be opened by CSV See (https://alex-exe.ru/programm/utility-csv-see/)" + Environment.NewLine +
             Environment.NewLine +
             "(press Ctrl + C to copy the message to the clipboard)";
 
